@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h4>Esta es una lista de cosas que me gusta</h4>
+  <ul>{% for item in cosas %}
+	<li>{{item}}</li>
+  </ul>
+  {% endfor %}
+{% endblock %}
+
+{% block footer %}
+Este es el footer de mi index, no dice nada util pero podría!!!
+
+{% endblock %}
+
