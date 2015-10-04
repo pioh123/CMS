@@ -10,8 +10,9 @@ from flask.ext.bower import Bower
 # Define the WSGI application object
 app = Flask(__name__)
 
-# import views
+# import views (me)
 from app import views
+
 
 # Configurations
 app.config.from_object('config')

@@ -4,6 +4,6 @@ from app import app
 @app.route('/')
 def index():
 	return render_template(
-		'index.html',
+		'authentication/index.html',
 		animales=['perro', 'gato', 'caballo', 'tigre', 'aguila']
 	    )

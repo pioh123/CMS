@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% set title ='Titulo desde el index' %}
+{% block content %}
+<h4>Lista de animales</h4>
+  {% for item in animales %}
+	<li>{{item}}</li>
+  
+  {% endfor %}
+{% endblock %}
+
+{% block footer %}
+	bloque desde  el index
+{% endblock %}
+
